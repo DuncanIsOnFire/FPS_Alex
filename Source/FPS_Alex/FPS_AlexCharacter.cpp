@@ -18,7 +18,7 @@ AFPS_AlexCharacter::AFPS_AlexCharacter()
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 
 	// set our turn rates for input
-	TurnRateGamepad = 45.f;
+	TurnRateGamepad = 5.f;
 
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
